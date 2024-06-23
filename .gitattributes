@@ -1,6 +1,6 @@
 * text=auto eol=crlf
 
-*.hexa text eol=crlf
+*.hexa text eol=crlf linguist-language=TypeScript
 *.h text eol=crlf
 *.c text eol=crlf
 *.cpp text eol=crlf
