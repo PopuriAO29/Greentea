@@ -22,7 +22,7 @@ Greentea OS is an operating system based on open source code. The main idea of t
 
 ## Compatibility Goals
 
-Greentea OS does not limit itself just to running ".exe" files. Overall compatibility goals are:
+Greentea OS does not limit itself just to running ".exe" and ".sys" files. Overall compatibility goals are:
 
 - GUI and console `.exe` apps
 - NT drivers (in the sandboxes/virtualized environments)
