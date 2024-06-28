@@ -25,7 +25,7 @@ Greentea OS is an operating system based on open source code. The main idea of t
 Greentea OS does not limit itself just to running ".exe" and ".sys" files. Overall compatibility goals are:
 
 - GUI and console `.exe` apps
-- NT drivers (in the sandboxes/virtualized environments)
+- NT drivers (in the sandboxes/virtualized environments, any version since XP)
 - Linux ELF executables (in a Docker-like environments)
 - Android `.apk` apps
 - Framework for other platforms emulation
