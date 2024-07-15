@@ -1,11 +1,11 @@
 ## Notes on CPU compatibility
 
-List of required features. Note: `wide support` means *both* AMD and Intel.
+List of the required features. Note: `wide support`/AMD64 means *both* AMD and Intel.
 
 Greentea OS targets CPUs **at least** from Q3 2011 and newer
 
 - `SSE2` is mandatory on AMD64
-- `NX` bit should be present on all AMD64, but may be disabled, does not affect system working
+- `NX` bit should be present on all AMD64
 - `SSE3` wide support since 2005
 - `CMPXCHG16B` wide support since 2006
 - `PrefetchW` wide support since 2006
@@ -21,6 +21,7 @@ Greentea OS targets CPUs **at least** from Q3 2011 and newer
 Optional features:
 
 - `1 GB` huge pages (aka `PDPE1GB`) wide support since 2012 and used as optimization
+	- May be not present on virtual machines
 - `x2APIC` is optional on AMD and **used** by Greentea if present
 - `AVX` wide support since 2011 (except *all* Atoms, some modern Pentiums & Celerons, old Xeons)
 
