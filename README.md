@@ -22,13 +22,18 @@ Greentea OS is an operating system based on open source code. The main idea of t
 
 ## Compatibility Goals
 
-Greentea OS does not limit itself just to running ".exe" and ".sys" files. Overall compatibility goals are:
+Greentea OS does not limit itself just to running ".exe" and ".sys" files.
 
 - GUI and console `.exe` apps
 - NT drivers (in the sandboxes/virtualized environments, any 64-bit version since NT 6.1)
 - Linux ELF executables (in a Docker-like environments)
+Overall compatibility goals are:
+
 - Android `.apk` apps
 - Framework for other platforms emulation
+
+### New Software Ecosystem
+
 
 ## Wiki
 
@@ -62,12 +67,13 @@ Building, testing and enjoying the development process:
 
 ### What makes Greentea so special
 
+Note: This project is in active development and has not yet implemented all of the features.
+
 * [The GreenteaFS file system](User-Guide/Greentea-FS.md)
-* [Enhanced use of the Vulkan API](User-Guide/Vulkan.md)
+* [Enhanced use of the GPU APIs](User-Guide/Vulkan.md)
 * [Emulation of other operating systems](User-Guide/Vulkan.md)
 * [Shop for applications, games and other content](User-Guide/Shop.md)
-* [Using web-alike technologies to build native apps](User-Guide/Web.md)
-* [Monolithic rolling-release updates of the system](User-Guide/Rolling.md)
+* [Atomic rolling-release updates of the system](User-Guide/Rolling.md)
 * [Unified control panel](User-Guide/Control-Panel.md)
 * [X86 emulation on third-party platforms](Developer-Guide/x86.md)
 * [Built-in protection mechanisms (antivirus, stability, isolation and snapshots)](User-Guide/Protection.md)
