@@ -7,7 +7,7 @@ The main idea of the project is to quickly and efficiently create a compatible e
 * CPU
  * [x] UEFI boot
  * [x] [x86-64-only mode (**dropping x86-32**)](x64.md)
- * [ ] Multicore HAL and scheduler
+ * [ ] Multi-core CPUs and scheduler
 * GPU
  * [ ] [Software Vulkan](../User-Guide/Vulkan.md)
  * [ ] Hardware Vulkan
@@ -16,26 +16,30 @@ The main idea of the project is to quickly and efficiently create a compatible e
 * Engine
  * [x] [New one in Hexa](../User-Guide/Hexa.md)
  * [x] Stable memory manager
- * [ ] GUI for OS installer
- * [ ] [Moving to a journaling filesystem](../User-Guide/Greentea-FS.md)
- * [x] LiveCD/USB
- * [ ] Stable networking
  * [x] Initial .exe support
- * [ ] Full .exe support
+ * [x] GUI-capable .exe support
+ * [ ] Browsers
+ * [ ] Wi-Fi & Bluetooth
+ * [ ] Networking protocols
+ * [ ] Third-party drivers support
+ * [ ] [Moving to a modern filesystem](../User-Guide/Greentea-FS.md)
  * [ ] Unix subsystem (only software)
  * [ ] Android subsystem
+ * [x] LiveCD/USB
+ * [ ] GUI for OS installer
  * [ ] [Easy system updates](../User-Guide/Rolling.md)
 * Visuals
  * [x] New default theming and visuals
+ * [ ] HiDPI
  * [ ] Theming engine
- * [ ] [New HTML5-alike theming engine and toolkit](../User-Guide/Web.md)
+ * [ ] [New flexible theming engine and toolkit](../User-Guide/Web.md)
  * [ ] Overhaul of theming engine (GPU-accelerated, shadows, blurs, effects)
 * Shell and UI
  * [x] Initial implementations of shell, tray, explorer, start button and others
  * [x] Greentea widgets and GUI elements
  * [ ] Stabilization of shell, tray, explorer, start button and others
  * [ ] [Shell overhaul to add modern features and look](../User-Guide/Control-Panel.md)
- * [ ] Customizable themes and widgets
+ * [ ] Customizable themes and widgets with external theme-packs
  * [ ] Stable and finished user space software
 
 ---
@@ -44,11 +48,12 @@ The main idea of the project is to quickly and efficiently create a compatible e
 
 This project started as a controversy to undefined future (and past) of existing operating systems.
 Our team decided to define precise list of *the most useful* features to the wide audiences.
-Features, like ARM support, aren't really useful in any real manner *right now*, as already showed by other vendors.
+Some features aren't really useful in any real manner *right now*, and their priority may be lowered.
 
 **Update from 2023:** seems like M1 CPUs finally make ARM support valuable?
+**Update from 2025:** M2+ CPUs seems like nearly impossible to fully support due to hardware changes
 
-Features, like LPT printing, has so small applicability (LPT ports in 2018 anyone?),
+Features, like LPT printing, has so small applicability (LPT ports in 2025+ anyone?),
 so can't be considered in any manner real target for Greentea OS team and use case for our users.
 Also, multiply that by a *enormous* number of bugs, hacks and workarounds, which we should fix now,
 to at least make non-academic project! And then improve implementations, **the real things**.

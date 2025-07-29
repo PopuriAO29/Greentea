@@ -6,18 +6,17 @@
 
 Greentea is a free next-generation operating system for your PC
 
-#### Is Greentea OS an operating system, distro, visual theme or app?
+#### Is Greentea OS a visual theme or app?
 
-Similiar to macOS and Linux, Greentea is a full operating system, installable on a PC. It runs apps, games and has some built-in software.
-It is **not** based on any other system.
+Similar to Windows, Greentea is a full operating system, installable on a PC. It runs apps, games and has some built-in software.
 
 #### Is Greentea OS Ad-driven or funded by corporations?
 
 Nope. Greentea is funded solely by [donations](https://greenteaos.github.io/donate/).
 
-#### Is Greentea OS a GNU/Linux distro?
+#### Is Greentea OS a modification of an existing OS?
 
-No. It is an independent OS, and isn't based on top of Linux.
+No. It is an independent OS, and isn't based on top of any other operating system.
 
 #### What makes Greentea OS so unique?
 
@@ -69,10 +68,9 @@ Greentea builds for comparatively modern hardware only — approximately for mos
 
 The oldest hardware with possibility to run is 2008 (64-bit CPUs only), but this is not guaranteed and probably requires a patch.
 
-### Sometimes Greentea definitely looks familiar...is this intentional?
+### Sometimes Greentea definitely looks familiar... is this intentional?
 
-We investigate design decisions of macOS, iOS, Linux and Android.
+We investigate design decisions of macOS, iOS, Android and variety of other popular open source projects.
 
-Note, that the *only* desktop things we try to keep are a flat look of window frames, sharp user interface edges and
+Note, that the *only* things we try to keep are a desktop-oriented look of window frames, sharp user interface edges and
 basics like font & icon sizes (for app compatibility and user experience familiarity).
-And drawing rectangles seems to give better performance than rounded corners.

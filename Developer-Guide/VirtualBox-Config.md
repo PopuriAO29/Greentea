@@ -21,8 +21,3 @@ The simplest way to achieve this is to choose **Mac OS X (64-bit)** preset.
 
 Than, set CPU count to 2 or more cores, RAM to 2 or more GBs.
 Changing other defaults is not recommended.
-
-
-#### Linux user?
-
-Try `virtualbox-dkms` instead of normal `virtualbox` in case of problems.
