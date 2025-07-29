@@ -24,16 +24,22 @@ Greentea OS is an operating system based on open source code. The main idea of t
 
 Greentea OS does not limit itself just to running ".exe" and ".sys" files.
 
-- GUI and console `.exe` apps
-- NT drivers (in the sandboxes/virtualized environments, any 64-bit version since NT 6.1)
-- Linux ELF executables (in a Docker-like environments)
 Overall compatibility goals are:
 
+- GUI and console `.exe` apps (including software preservation in general) targeting [legacy Win32 API](https://github.com/GreenteaOS/Caramel) (superseded by WinUI/WinRT)
+- NT drivers (in the sandboxes/virtualized environments, any 64-bit version since NT 6.1 up to latest officially unsupported one)
+  - This includes anti-cheats and other low-level software
+- Unix ELF executables (in a Docker-like environments)
 - Android `.apk` apps
-- Framework for other platforms emulation
+- Framework for other platforms emulation and their [software preservation](https://en.wikipedia.org/wiki/Digital_preservation)
+- Full backwards compatibility of the most system APIs and services so you can trust Greentea OS as a stable platform
+- CPU features emulation like AVX to prolong hardware lifetime
 
 ### New Software Ecosystem
 
+Despite broad compatibility goals, Greentea OS is an **independently developed and distinct open-source operating system**, engineered to provide a versatile and robust computing environment. While it offers broad compatibility with various existing software formats and APIs, Greentea OS *is not, and is not intended to be, a derivative of Microsoft Windows*, but a complementary alternative. Instead, it represents a novel software ecosystem built on open-source principles.
+
+Greentea OS serves as both a platform for executing a wide array of legacy and contemporary applications and a foundation for developing innovative new software within its unique architecture. Our focus is on providing a secure, adaptable, and community-driven alternative for diverse computing needs.
 
 ## Wiki
 
