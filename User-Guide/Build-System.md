@@ -1,5 +1,3 @@
-## Custom build system
+## Custom Builds
 
-It is *not* okay to have only binary builds and in-the-middle subject of trust. Why not build OS yourself and trust nobody but developers?
-
-Greentea supports quick easy builds, so you may build system yourself, if you don't believe maintainer!
+Building the OS yourself ensures trust and transparency. Greentea OS offers straightforward build processes, allowing you to compile the system independently without relying solely on binary builds or maintainers.
